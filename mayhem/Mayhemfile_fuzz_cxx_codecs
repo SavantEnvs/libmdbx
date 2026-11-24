@@ -1,0 +1,9 @@
+project: savantenvs/libmdbx
+target: fuzz_cxx_codecs
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_cxx_codecs/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_cxx_codecs
+    libfuzzer: true
+    timeout: 10

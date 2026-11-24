@@ -1,0 +1,9 @@
+project: savantenvs/libmdbx
+target: fuzz_env_chk
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_env_chk/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_env_chk
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,15 @@
+VERSION=3
+geometry=l4096,u1048576,s131072,g65536
+mapsize=1048576
+format=print
+type=btree
+db_pagesize=256
+duplicates=0
+HEADER=END
+ apple
+ banana
+ key1
+ val1
+ key2
+ val2
+DATA=END

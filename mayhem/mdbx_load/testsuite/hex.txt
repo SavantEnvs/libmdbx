@@ -1,0 +1,10 @@
+VERSION=3
+format=bytevalue
+type=btree
+mapsize=1048576
+HEADER=END
+ 6b6579
+ 76616c7565
+ 6b657932
+ 00ff10
+DATA=END

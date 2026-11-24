@@ -1,0 +1,17 @@
+VERSION=3
+geometry=l4096,u1048576,s131072,g65536
+mapsize=1048576
+format=bytevalue
+database=tbl
+type=btree
+db_pagesize=256
+duplicates=1
+dupsort=1
+HEADER=END
+ 61
+ 31
+ 61
+ 32
+ 62
+ 33
+DATA=END

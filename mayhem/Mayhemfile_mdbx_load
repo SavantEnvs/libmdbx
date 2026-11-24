@@ -1,0 +1,9 @@
+project: savantenvs/libmdbx
+target: mdbx_load
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mdbx_load/testsuite
+cmds:
+  - cmd: /mayhem/mdbx_load_afl @@
+    afl: true
+    timeout: 10

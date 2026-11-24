@@ -1,0 +1,11 @@
+VERSION=3
+format=print
+type=btree
+HEADER=END
+ key1
+ val1
+ key2
+ val2
+ apple
+ banana
+DATA=END
